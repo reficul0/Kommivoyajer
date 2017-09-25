@@ -1,7 +1,11 @@
 ﻿  Kommivoyajer.cpp
-c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(37): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(61): warning C4101: e: неиспользованная локальная переменная
-c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(156): warning C4101: b: неиспользованная локальная переменная
-c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(165): warning C4101: c: неиспользованная локальная переменная
-  Коммивояжер 2.0.vcxproj -> C:\Users\ноут\Documents\Visual Studio 2017\Projects\Коммивояжер 2.0\Debug\Коммивояжер 2.0.exe
-  Коммивояжер 2.0.vcxproj -> C:\Users\ноут\Documents\Visual Studio 2017\Projects\Коммивояжер 2.0\Debug\Коммивояжер 2.0.pdb (Partial PDB)
+c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(41): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(119): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(119): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(120): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(120): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(121): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(121): note: заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+c:\users\ноут\documents\visual studio 2017\projects\коммивояжер 2.0\коммивояжер 2.0\kommivoyajer.cpp(202): warning C4101: b: неиспользованная локальная переменная
+  Коммивояжер 2.0.vcxproj -> C:\Users\ноут\documents\visual studio 2017\Projects\Коммивояжер 2.0\Debug\Коммивояжер 2.0.exe
+  Коммивояжер 2.0.vcxproj -> C:\Users\ноут\documents\visual studio 2017\Projects\Коммивояжер 2.0\Debug\Коммивояжер 2.0.pdb (Partial PDB)

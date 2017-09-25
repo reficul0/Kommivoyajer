@@ -2,6 +2,8 @@
 //
 
 #include "stdafx.h"
+#include <stdio.h>
+#include <iostream>
 #include "Kommivoyajer.h"
 
 
@@ -15,12 +17,11 @@ int main()
 	puts("Enter index of start city : ");
 	scanf("%d", &startCity);
 
-	Kommivoyajer kom(countOfCitis, startCity);
+	Kommivoyajer kom(countOfCitis, startCity); puts("");
+	kom.CalculateMinimalWay();
 	puts("");
-	kom.PrintATableOfRoad();
-	kom.GetMinimalWay();
-	kom.PrintAMinimalWay();
-
+	std::cout << kom;
+	
 	return 0;
 }
 

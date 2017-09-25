@@ -2,16 +2,22 @@
 #ifndef _KOMMIVOYAJER_H_
 #define _KOMMIVOYAJER_H_
 
-
 class Kommivoyajer
 {
-	int **tableOfRoad, *tableOfCitisIx, countOfCity, startCityIx, minWay;
+	int **tableOfRoadVal, *arrayOfCitisIx, countOfCity, startCityIx, minWay;
 	bool FIndNewCombinationOfWay();
 	void NewSqrMatrixAndRandValue();
 public:
-	void PrintATableOfRoad();
-	void PrintAMinimalWay();
-	int GetMinimalWay();
+	void PrintAArrayOfCitisIx();
+	void PrintATableOfRoadVal();
+	void CalculateMinimalWay();
+	void PrintAKommovoyajerObj();
+
+	int ReturnAMinimalWay()
+	{
+		return minWay;
+	}
+	friend std::ostream& operator<<(std::ostream &os, Kommivoyajer &obj);
 
 	Kommivoyajer(int countOfCity = 0, int startCityIx = 0);
 	~Kommivoyajer();
