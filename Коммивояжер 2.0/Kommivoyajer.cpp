@@ -16,17 +16,17 @@ bool Kommivoyajer::FIndNewCombinationOfWay()
 		{
 			return false;
 		}
-		for (j = countOfCity - 1; (j > i) && (arrayOfCitisIx[i] >= arrayOfCitisIx[j]); --j);
+		for (j = countOfCity - 2; (j > i) && (arrayOfCitisIx[i] >= arrayOfCitisIx[j]); --j);
 
 		var = arrayOfCitisIx[i];
 		arrayOfCitisIx[i] = arrayOfCitisIx[j];
 		arrayOfCitisIx[j] = var;
 
-		for (int k(i + 1), i(0); i < countOfCity - k - 1; ++i)
+		for (int k(i + 1), p(0); p < countOfCity - k - 2; ++p)
 		{
-			var = arrayOfCitisIx[k + i];
-			arrayOfCitisIx[k + i] = arrayOfCitisIx[countOfCity - 2 - i];
-			arrayOfCitisIx[countOfCity - 2 - i] = var;
+			var = arrayOfCitisIx[k + p];
+			arrayOfCitisIx[k + p] = arrayOfCitisIx[countOfCity - 2 - p];
+			arrayOfCitisIx[countOfCity - 2 - p] = var;
 		}
 		return true;
 	}
