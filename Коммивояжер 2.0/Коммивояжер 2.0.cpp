@@ -4,7 +4,9 @@
 #include "stdafx.h"
 #include <stdio.h>
 #include <iostream>
+#include <array>
 #include "Kommivoyajer.h"
+
 
 
 int main()

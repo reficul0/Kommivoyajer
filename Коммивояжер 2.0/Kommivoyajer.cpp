@@ -5,7 +5,7 @@
 #include <time.h>
 #include "Kommivoyajer.h"
 
-bool Kommivoyajer::FIndNewCombinationOfWay()
+bool Kommivoyajer::FIndNewCombinationOfWayDiykstra()
 {
 	if (arrayOfCitisIx && countOfCity > 1)
 	{
@@ -13,9 +13,7 @@ bool Kommivoyajer::FIndNewCombinationOfWay()
 
 		for (i = countOfCity - 2; i >= 0 && (arrayOfCitisIx[i] >= arrayOfCitisIx[i + 1]); --i);
 		if (i == -1)
-		{
 			return false;
-		}
 		for (j = countOfCity - 2; (j > i) && (arrayOfCitisIx[i] >= arrayOfCitisIx[j]); --j);
 
 		var = arrayOfCitisIx[i];
@@ -79,7 +77,7 @@ void Kommivoyajer::CalculateMinimalWay()
 		bool newWay(true);
 		do
 		{
-			newWay = FIndNewCombinationOfWay();
+			newWay = FIndNewCombinationOfWayDiykstra();
 			if (!newWay)
 				break;
 

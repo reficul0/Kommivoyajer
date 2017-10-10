@@ -5,7 +5,7 @@
 class Kommivoyajer
 {
 	int **tableOfRoadVal, *arrayOfCitisIx, countOfCity, startCityIx, minWay;
-	bool FIndNewCombinationOfWay();
+	bool FIndNewCombinationOfWayDiykstra();
 	void NewSqrMatrixAndRandValue();
 public:
 	void PrintAArrayOfCitisIx();
